@@ -1,9 +1,5 @@
-# import mysql.connector
+# conf/db_config.py
 
-# def get_db_connection():
-#     return mysql.connector.connect(
-#         host="localhost",
-#         user="root",        # change to your MySQL username
-#         password="1234", # change to your MySQL password
-#         database="test_db"   # change to your DB name
-#     )
+def get_db_connection():
+    # Database is not used for now
+    return None
