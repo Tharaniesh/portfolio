@@ -16,6 +16,8 @@ def create_app():
         from app.Controller.ServicesController import services_bp
         from app.Controller.ProjectsController import projects_bp
         from app.Controller.PortfolioController import portfolio_bp
+        from app.Controller.LevraAIController import levra_bp
+        app.register_blueprint(levra_bp, url_prefix="/levra")
         app.register_blueprint(services_bp, url_prefix="/services")
         app.register_blueprint(projects_bp, url_prefix="/projects")
         app.register_blueprint(portfolio_bp, url_prefix="/portfolio")

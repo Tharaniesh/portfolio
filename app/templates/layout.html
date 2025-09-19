@@ -147,11 +147,11 @@
       <!-- Navbar links (desktop only) -->
       <div class="collapse navbar-collapse d-none d-lg-flex text-small" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link {% if request.path == url_for('portfolio.home') %}active{% endif %}" href="{{ url_for('portfolio.home') }}">Home</a></li>
+          <li class="nav-item"><a class="nav-link {% if request.path == url_for('main.home') %}active{% endif %}" href="{{ url_for('main.home') }}">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          <li class="nav-item"><a class="nav-link" href="#personal-ai">Personal AI</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{ url_for('main.levra') }}">Personal AI</a></li>
           <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person-circle"></i></a></li>
         </ul>
       </div>
@@ -164,7 +164,7 @@
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link {% if request.path == url_for('portfolio.home') %}active{% endif %}" href="#home" data-bs-dismiss="offcanvas">Home</a></li>
+            <li class="nav-item"><a class="nav-link {% if request.path == url_for('portfolio.home') %}active{% endif %}" href="{{ url_for('portfolio.home') }}" data-bs-dismiss="offcanvas">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#projects" data-bs-dismiss="offcanvas">Projects</a></li>
             <li class="nav-item"><a class="nav-link" href="#services" data-bs-dismiss="offcanvas">Services</a></li>
             <li class="nav-item"><a class="nav-link" href="#contact" data-bs-dismiss="offcanvas">Contact</a></li>
@@ -205,6 +205,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- AOS Script -->
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   <script>AOS.init();</script>
 
   {% block bottomscript %}{% endblock %}

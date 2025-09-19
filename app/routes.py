@@ -5,3 +5,7 @@ main = Blueprint("main", __name__)
 @main.route("/")
 def home():
     return redirect(url_for("portfolio.home"))
+
+@main.route("/levra")
+def levra():
+    return redirect(url_for("levra.startLevra"))
