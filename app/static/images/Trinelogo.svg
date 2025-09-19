@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000 1000">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .st0, .st1 {
+        fill: #fff;
+      }
+
+      .st2, .st3 {
+        fill: #231f20;
+      }
+
+      .st4 {
+        fill: #27aae1;
+      }
+
+      .st3 {
+        font-family: Onyx, Onyx;
+        font-size: 97.57px;
+      }
+    </style>
+  </defs>
+  <polygon class="st4" points="188.9 326 382.95 326 382.95 642.66 429.38 670.04 429.38 290.28 157.95 290.28 188.9 326"/>
+  <polygon class="st2" points="443.67 290.28 443.67 670.04 490.09 642.66 490.09 326.74 443.67 290.28"/>
+  <path class="st0" d="M467.65,480.16"/>
+  <polyline class="st4" points="746.65 430.03 654.46 277.09 451.95 277.09 505.63 319.96 504.45 650.7 449.36 683.24 657.61 683.24 776.08 478.85 746.65 430.03"/>
+  <polygon class="st1" points="690.12 529.59 624.42 643.82 546.29 643.82 546.29 316.5 623.91 316.5 688.46 430.02 716.34 480.16 690.12 529.59"/>
+  <g>
+    <polygon class="st4" points="1372.24 326 1566.29 326 1566.29 642.66 1612.72 670.04 1612.72 290.28 1341.29 290.28 1372.24 326"/>
+    <polygon class="st2" points="1627.01 290.28 1627.01 670.04 1673.43 642.66 1673.43 326.74 1627.01 290.28"/>
+    <path class="st0" d="M1650.99,480.16"/>
+    <polygon class="st4" points="1876.78 529.59 1807.76 643.82 1729.63 643.82 1729.63 316.5 1807.25 316.5 1876.78 430.02 1929.99 430.03 1837.8 277.09 1635.29 277.09 1688.97 319.96 1687.79 650.7 1632.7 683.24 1840.95 683.24 1930.01 529.59 1876.78 529.59"/>
+    <text class="st3" transform="translate(1768.19 515.68) scale(.97 1)"><tspan x="0" y="0">Trine Developer</tspan></text>
+  </g>
+</svg>
